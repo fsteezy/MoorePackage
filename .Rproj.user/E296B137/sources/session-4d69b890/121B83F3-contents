@@ -1,0 +1,18 @@
+#' Perform vector analysis
+#'
+#' This function performs basic vector analysis on a numeric vector.
+#'
+#' @param x A numeric vector.
+#'
+#' @return A list containing the mean, median, and standard deviation of the input vector.
+#'
+#' @examples
+#' vector_analysis(c(1, 2, 3, 4, 5))
+vector_analysis <- function(x) {
+  result <- list(
+    Mean = mean(x),
+    Median = median(x),
+    StdDev = sd(x)
+  )
+  return(result)
+}

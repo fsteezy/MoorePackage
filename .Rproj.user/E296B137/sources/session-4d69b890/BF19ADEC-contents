@@ -1,0 +1,16 @@
+context("Testing vector_analysis function")
+
+test_that("vector_analysis calculates mean correctly", {
+  # Test case 1
+  x <- c(1, 2, 3)
+  expected_result <- 2
+  actual_result <- vector_analysis(x)
+  expect_equal(actual_result, expected_result)
+
+  # Test case 2
+  x <- c(5, 10, 15)
+  expected_result <- 10
+  actual_result <- vector_analysis(x)
+  expect_equal(actual_result, expected_result)
+})
+

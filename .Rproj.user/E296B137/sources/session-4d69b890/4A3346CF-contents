@@ -13,6 +13,4 @@ RoxygenNote: 7.2.3
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-Import: cHroma 
-URL: https://github.com/fsteezy/MoorePackage
-BugReports: https://github.com/fsteezy/MoorePackage/issues
+Import:cHroma 
