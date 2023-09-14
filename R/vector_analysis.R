@@ -7,8 +7,12 @@
 #'
 #' @examples
 #' vector_analysis(c(1, 2, 3))
+#'
+#' @export
 vector_analysis <- function(x) {
-    result <- mean(x)
+    result <- mean(
+                  as.numeric(x)
+                  )
     return(result)
   }
 

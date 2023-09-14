@@ -17,4 +17,5 @@ This function performs custom vector analysis.
 }
 \examples{
 vector_analysis(c(1, 2, 3))
+
 }

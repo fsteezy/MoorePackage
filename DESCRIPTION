@@ -1,5 +1,5 @@
 Package: MoorePackage
-Title: What the Package Does (One Line, Title Case)
+Title: This pacakge does vector analysis with chRoma
 Version: 0.0.0.9000
 Authors@R: 
     person("Fabian", "Gomez", , "fabian.gomezt@student.csulb.edu", role = c("aut", "cre"),
